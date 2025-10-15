@@ -12,16 +12,29 @@ In this hackathon, teams will use the [Alberta Water Well Information Database](
 7. Refer to `assets/Alberta Water Well Info.docx` for information about each table such as column descriptions and entity relationship diagrams
 
 ### Some Ideas for AI Agents
-- **New Water Well Planning Agent:**
-    
-    A user might ask `I am planning a new well on my property, can you help me create the plan?`. The Agent could:
-    1. search historical data for nearby drilled and tested wells
-    2. get the contact information of drilling companies that drilled the nearby wells
-    3. summarize the most common water bearing soil material and depths of material
-    4. get the typical pump intake depths and recommended flow rates
-    5. summarize any known water quality issues from nearby wells (i.e. exceedances)  
+**New Water Well Planning Agent:**
 
-ADD MORE
+A user might ask `I am planning a new well on my property, can you help me create the plan?`. The Agent would:
+1. search historical data for nearby drilled and tested wells
+2. get the contact information of drilling companies that drilled the nearby wells
+3. summarize the most common water bearing soil material and depths of material
+4. get the typical pump intake depths and recommended flow rates
+5. summarize any known water quality issues from nearby wells (i.e. exceedances)  
+
+**Water Quality Risk Agent**
+
+A user might ask `Should I be testing my well more frequently for water quality risks?`. The Agent would:
+1. search test wells near the user
+2. compile any known aesthetic and health releated risks from gas, bacteria, water quality, and isotope testing
+3. provide a risk assessment for the users well
+
+**Drilling Contractor Performance Agent**
+
+A user might ask `What drilling companies near me have the best performance record?`. The Agent would:
+1. get all in business drilling companies that have drilled wells nearby in the past
+2. get information about nearby well water quality
+3. get information about yield and completion quality (i.e. seal and screen placement)
+4. group by drilling companies and create a scorecard
 
 ### Databricks AI Features 
 - [Genie Spaces](https://docs.databricks.com/aws/en/genie/): get answers to questions using natural language. Genie converts text to SQL and understand data metadata and entity relationships
