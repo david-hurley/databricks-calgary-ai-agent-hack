@@ -36,6 +36,12 @@ A user might ask `What drilling companies near me have the best performance reco
 3. get information about yield and completion quality (i.e. seal and screen placement)
 4. group by drilling companies and create a scorecard
 
+**Water Well PDF Processing and Verification**
+
+Every drilled and test well has a associated PDF report. You could download a selection of these reports and build a Agent that would extract text from PDFs and verify extraction. This would emmulate a common use case of parsing unstructured documents and building verification.
+1. parse the PDF to text or markdown
+2. verify the field extraction against the existing table data
+
 ### Databricks AI Features 
 - [Genie Spaces](https://docs.databricks.com/aws/en/genie/): get answers to questions using natural language. Genie converts text to SQL and understand data metadata and entity relationships
 - [Unity Catalog Registered Functions](https://docs.databricks.com/aws/en/udf/unity-catalog): create SQL and Python functions, registered in Unity Catalog, and add as tools for LLMs
