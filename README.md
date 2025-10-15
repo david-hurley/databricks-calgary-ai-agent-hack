@@ -55,7 +55,9 @@ Every drilled and test well has a associated PDF report. You could download a se
 **Terms of use**
 
 **Non-commercial reproduction**
+
 Unless indicated otherwise, the data contained in the repository may be copied and distributed for non-commercial use without charge or further permission from Government of Alberta Communications and Public Engagement. We only ask that: the data will not be modified, users exercise due diligence in ensuring the accuracy of the data, the Government of Alberta be identified as the source of the data, and the reproduction is not represented as an official version of the data reproduced, nor as having been made in affiliation with or with the endorsement of the Government of Alberta.
 
 **Commercial reproduction**
+
 The data contained in the repository may not be copied and/or distributed for commercial purposes without prior written permission from Government of Alberta Communications and Public Engagement.
