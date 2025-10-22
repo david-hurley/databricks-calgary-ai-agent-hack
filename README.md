@@ -3,13 +3,15 @@
 In this hackathon, teams will use the [Alberta Water Well Information Database](https://www.alberta.ca/alberta-water-well-information-database) to create AI Agents in Databricks. Teams can explore the data on a map using the [Alberta Water Well Data Explorer](https://groundwater.alberta.ca/waterwells/d/). This map contains information on all drilled and tested water wells in Alberta. 
 
 ### Getting Started
-1. Open your Databricks Free Edition workspace
-2. From the `workspace` tab, select `create` and choose `git folder`
-3. Enter `https://github.com/david-hurley/databricks-calgary-ai-agent-hack.git` in the Git Repository URL box and click `Create Git Folder`
-4. Navigate into the newly created `databricks-calgary-ai-agent-hack` folder and into `setup`
-5. Open the `001-setup` notebook and `run all`, the play button in the top right - do not modify this notebook
-6. When the notebook is finished running, navigate to the `Catalog` tab and into `calgary_agent_hackathon.alberta_well_water_data` - you should see all of the newly created tables
-7. Refer to `assets/Alberta Water Well Info.docx` for information about each table such as column descriptions and entity relationship diagrams
+1. Open your Databricks workspace
+2. From the Workspace tab, select Create and choose Git folder
+   <img width="1719" height="360" alt="image" src="https://github.com/user-attachments/assets/acf48aab-e09e-4eb0-be55-c1afefc0a767" />
+3. Enter `https://github.com/david-hurley/databricks-calgary-ai-agent-hack.git` in the Git repository URL box and click Create Git Folder
+4. You should now have a directory called `databricks-calgary-ai-agent-hack`
+5. Navigate into the setup directory and open the `001-setup` notebook and select `Run all`, the play button in the top right - DO NOT MODIFY THIS NOTEBOOK
+6. When the notebook is finished running, navigate to the Catalog tab and expand the `calgary_agent_hackathon` catalog and `alberta_water_well_data` schema. You should see the newly created tables.
+   <img width="626" height="275" alt="image" src="https://github.com/user-attachments/assets/99bc8776-f711-4034-b6ec-e0d003cf6ee4" />
+7. Navigate to the assets directory and download `Alberta Water Well Info.docx`. This document provides relevant dataset information and links.
 
 ### Some Ideas for AI Agents
 **New Water Well Planning Agent:**
